@@ -1,0 +1,246 @@
+header {
+    height: 80px;  
+}
+.marquee{
+  padding-top: 100px;
+}
+.pencarian{
+  margin-top: 5px;
+  margin-left: 10px;
+  background: white;
+  height: 20px;
+  border-radius: 40px;
+  padding:10px;
+}
+.pencarian:hover > .search-box{
+  width: 100px;
+  padding: 0 6px;
+}
+.pencarian:hover > .search-btn{
+  background: var(--main-color);
+  color: black;
+  float:right;
+}
+.search-btn{
+  display: flex;
+  color:  var(--main-color);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  justify-content: center;
+  align-items: center ;
+  transition: 0.4s;
+}
+.search-box{
+  border:none;
+  background: none;
+  outline: none;
+  float: left;
+  color: var(--main-color);
+  font-size: 16px;
+  transition: 0.4s;
+  width: 0px;
+}
+header ul {
+  text-align: center;
+  padding-top: 100px;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: white;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    color: black;
+}
+.logo {
+    width: auto;
+    height: 80%;
+    z-index: 1;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+.judul {
+    position: relative;
+    top: -70px;
+    text-align: center;
+    color: white;
+}
+.marque{
+  margin-top: -40px;
+  border-left-width: 50px;
+  color: black;
+  font-size: 20pt;
+}
+nav {
+    height: 25px;
+    width: 100%;
+    padding-left: 17.5px;
+    margin-left: -10px;
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    background: #0a808080;
+}
+.indexsection {
+    padding-top: 5%;
+    padding-left: 17.5px;
+    margin-left: -10px;
+    margin-top: 1.4%;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 3000px;
+    background-color: aliceblue;
+}
+.sectionprofil{
+  margin-top: 1.4%;
+  padding-top: 2%;
+  width: 100%;
+  height: 600px;
+  background-color: aliceblue;
+}
+.kiri {
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 100px;
+    width: 250px;
+    position: fixed;
+    background: rgba(95, 216, 247, 0.7);
+    float: left;
+    height: 530px;
+    text-align: center;
+    overflow: auto;
+}
+.tengah{
+    width: 60%;
+    height: 500px;
+    position: absolute;
+    text-align: center;
+    left: 20%;
+}
+.tengah a{
+  text-align: right;
+}
+.tengah h1{
+  text-align: left;
+  font-size: 25pt;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.tengah p{
+  text-align: left;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.kanan {
+  border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    background: rgba(95, 216, 247, 0.7);
+    top: 100px;
+    width: 250px;
+    right: 0;
+    float: right;
+    position: fixed;
+    height: 530px;
+    text-align: center;
+    overflow: hidden;
+}
+footer {
+    background-color: teal;
+    margin-bottom: -23px;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    top: -24px;
+    right: 10px;
+    left: 0;
+    bottom: 0;
+}
+footer ul{
+  display: flex;
+  text-align: center;
+}
+footer ul li{
+  margin-right: 30px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+    font-family: arial;
+    background-color: white;
+  }  
+  button {
+    border: none;
+    outline: 1;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 10px;
+  }  
+  button:hover, a:hover {
+    opacity: 0.8;
+  }
+  a {
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+  }
+  .kiri a {
+    margin-top: 70px;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: skyblue;
+    color: black;
+    display: block;
+   
+  }
+  .kiri a:hover {
+    color: gold;
+    transition: all 300ms ease-in;
+  }
+  .kanan .teksberita{
+    margin-top: 40px;
+    padding: 20px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 12pt;
+    color: black;
+    display: block;
+  }
+  .kanan a:hover{
+    color: blue;
+  }
+  .kanan img{
+      width: 140px;
+      height: 85px;
+      margin-top: 20px;
+      margin-bottom: -60px;
+  }
+/* dark mode */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+
+
+  
+ 
